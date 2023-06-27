@@ -31,6 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
+
 <h2>Installation Steps</h2>
 
 <p>
@@ -44,15 +45,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 ![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/7bea9970-016b-44a0-abd1-053f62d7458c)
-![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/cea241ae-0e77-4637-ae81-d80f92974163)
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/90598924-4bdb-490e-bfac-911742bf6354)
 
 <p>
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once inside the VM, go to the control panel. From the control panel open programs, Select, Turn Windows Features on and off. Then make sure to enable/install IIS in Windows and IIS Management Console. Make sure the following fields are checked; CGI, Common HTTP Features, and ISS Management Console.  
 </p>
+
 <br />
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/30294e99-aa1a-4380-9c6a-8b892689a4aa)
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/33643269-011d-4c0b-b3bf-a89d2e312c7a)
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/bdf584df-2942-4035-9dd9-11e2e76f3437)
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
