@@ -112,8 +112,35 @@ Restart the IIS server.
 
 ![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/96011ade-1c5c-4bf6-83c0-b01e9554ffb1)
 
+13.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
 
+Reload IIS again.
 
+14.) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/380606cc-b199-48ff-b298-f8d0f422865f)
+
+Some extensions are not enabled on the osTicket browser. To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double click PHP manager -Click "Enable or disable an extension"
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/1dd09fb2-130c-41e6-8c98-50bd834b91b1)
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/e57accd9-a88f-40c7-b804-33eb7c844757)
+
+We will want to enable three extensions from here.
+
+1.) php_imap.dll
+
+2.) php_intl.dll
+
+3.) php_opcache.dll
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/f5961115-a317-4cd3-aeb7-4c15ea86d813)
+
+15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+We are going to rename the ost-sampleconfig.php to ost-config.php
+
+Now that we have renamed the files, right-click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
 
 
 
