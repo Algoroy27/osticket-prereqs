@@ -77,8 +77,19 @@ To make sure the IIS is installed/enabled go to a browser of your choice and sea
 
 8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
 
+9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
+
+10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
+
+Make the new root password: Password1
+
 
 </p>
-<br />
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/eb3e7739-2276-4cd9-9f1d-d1fa5a3583c7)
+
+
+
+
 
 
