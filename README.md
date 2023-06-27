@@ -142,5 +142,53 @@ We are going to rename the ost-sampleconfig.php to ost-config.php
 
 Now that we have renamed the files, right-click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
 
+Now we will add new permissions.
+
+Click Add
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/2a21aa25-d47e-496a-8d89-cbd8d98a1969)
+
+Select a principal
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/77bf1091-644e-402d-a23a-24360f2e88e0)
+
+Type "Everyone" in the box.
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/8d65f6ff-b360-4bc1-a65a-abb11b4ee882)
+
+Make sure Full Control and all the other boxes are checked.
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/42617961-0148-4d16-90ad-a445ce2b88bf)
+
+Click Apply and Ok.
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/096550a3-eb14-490a-b01a-4a42fe6e4f36)
+
+Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page. Fill out the page as required except for the Database Settings at the bottom of the page. We will get to that.
+
+We will want to download and install HeidiSQL from the Installation Files.
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/bea9be53-299b-4229-a1c7-859b7f2cf1fc)
+
+When the program is open we will create a new session in it. We want to make sure the username is root and the password is Password1.
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/84284096-4f89-4738-9fcf-f367607c673b)
+
+Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
+
+We will now create a new database within HeidiSQL. In Heidi right click on the left side where it says "Unnamed", select "create new", and then select "Database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
+
+The last step is to do some cleanup. We will want to delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
+
+We then will want to set the permissions back to "Read" only in the ost-config.php file.
+
+Now osTicket is ready for use and you can login with your admin creds. Congrats 
+
+![image](https://github.com/Algoroy27/osticket-prereqs/assets/137920855/8c0c266f-b45a-4e3b-b9ff-50a5082947f1)
+
+
+
+
+
 
 
